@@ -1,0 +1,100 @@
+html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #9384D1;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 100%;
+}
+
+/* Barre de navigation */
+div[id="topelem"] {
+    display: flex;
+    justify-content: space-between;
+    background-color: #C9A7EB;
+    padding: 8px;
+    /* Elément permanent */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Logo du site */
+img[id="biglogo"] {
+    height: 85px;
+    margin-left: 10px;
+    /* Center vertically */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Logo admin */
+img[id="adminlogo"] {
+    height: 75px;
+    margin-right: 10px;
+    /* Center vertically */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Articles */
+h3 {
+    color: #FFDCB6;
+    text-align: center;
+    font-weight: lighter;
+}
+
+div[id="articlelist"] {
+    margin-top: 140px;
+    margin-bottom: 75px;
+}
+
+div[id="article"] {
+    margin-top: 30px;
+}
+
+div[id="article"] a, div[id="article"] p {
+    display: block;
+    color: #FFDCB6;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+div[id="article"] a {
+    font-style: italic;
+    font-size: 22px;
+    padding: 0;
+}
+
+div[id="article"] p[id="infos"] {
+    margin-top: 3px;
+}
+
+div[id="article"] p {
+    font-size: 15px;
+}
+
+/* Bas de la page */
+div[id="bottomelem"] {
+    background-color: #C9A7EB;
+    /* Elément permanent */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+div[id="bottomelem"] p {
+    color: #FFDCB6;
+    text-align: center;
+    font-size: 15px;
+    margin: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}

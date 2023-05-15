@@ -1,0 +1,29 @@
+h3[id="spacer"] {
+    color: #C9A7EB;
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+}
+
+div[id="post-comment"], div[id="comments"] {
+    margin: 0 auto;
+    text-align: center;
+    color: #FFDCB6;
+}
+
+div[id="post-comment"] h2, div[id="comments"] h2 {
+    font-style: italic;
+    font-size: 22px;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+div[id="comments"] {
+    margin-bottom: 70px;
+}
+
+div[id="article"] p, div[id="comment"] p {
+    margin-right: 15%;
+    margin-left: 15%;
+    line-height: 150%;
+}

@@ -1,0 +1,22 @@
+Modalités pour le rendu du projet blog 
+
+1) L'administration et ses différentes parties sont fonctionnelles à savoir la possibilité:
+-d'ajouter des posts avec un titre, contenu, catégorie, auteur
+-de modifier le titre et/ou contenu d'un post 
+-supprimer un post 
+
+2) La page d'accueil affiche bien les posts par date de post décroissante (les plus récents en premier) avec le titre, début du contenu, catégorie, auteur et date de post (en format dd/mm/yy)
+
+3) Le contenu du post sur la page d'accueil est limité à 100 caractères
+
+4) La page de détail du post affiche bien le titre, le contenu complet du post, l'auteur, la catégorie et la date de post (en format dd/mm/yy)
+
+5) Sur la page de détails du post, les commentaires sont affichés en dessous de celui-ci 
+
+6) Sur la page de détails du post, on peut commenter celui-ci en précisant un pseudo et le commentaire souhaité
+
+
+
+Le rendu pourra se faire sous forme d'archive ou sur Github
+Cela devra reprendre l'ensemble de votre dossier de travail ainsi qu'un export de votre base de données sql
+Il faudra alors l'envoyer à l'adresse theau.debureau.pro@gmail.com à la fin de la séance du 15 Mai 2023

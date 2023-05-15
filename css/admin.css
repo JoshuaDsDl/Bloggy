@@ -1,0 +1,44 @@
+div[id="content"] {
+    color: #FFDCB6;
+    text-align: center;
+    margin: 0 auto;
+    vertical-align: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+div[id="content"] h2 {
+    font-weight: lighter;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+button, input[type="submit"], input[type="button"] {
+    color: #FFDCB6;
+    background-color: #C9A7EB;
+    padding: 15px;
+    margin: 10px;
+    border-style: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+div[id="submitbtns"] {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="text"], textarea, select {
+    color: whitesmoke;
+    background-color: #C9A7EB;
+    border: none;
+    padding: 3px; 
+}
+
+h2 {
+    white-space: nowrap;
+}
